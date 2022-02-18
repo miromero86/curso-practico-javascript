@@ -119,3 +119,26 @@ function calcularAreaTriangulo() {
     const areaT = (inputBaseTriangulo * inputAlturaTriangulo) / 2;
     alert(areaT);
 }
+
+// Circulo
+
+function calcularPerimetroCirculo() {
+    const inputRadio = document.getElementById("inputRadioCirculo");
+    const inputRadioCirculo = parseFloat(inputRadio.value);
+
+    const diametroCir = inputRadioCirculo * 2;
+
+    const pi = Math.PI;
+
+    const perimetroCir = diametroCir * pi;
+    alert(perimetroCir);
+
+}
+
+function calcularAreaCirculo() {
+    const inputRadio = document.getElementById("inputRadioCirculo");
+    const inputRadioCirculo = parseFloat(inputRadio.value);
+
+    const areaCir = (inputRadioCirculo * inputRadioCirculo) * 2;
+    alert(areaCir);
+}
