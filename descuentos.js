@@ -1,6 +1,3 @@
-//const precioOriginal = 120;
-//const descuento = 15;
-
 function calcularPrecioConDescuento(precio, descuento){
     const porcentajePrecioConDescuento = 100 - descuento;
 
@@ -22,13 +19,3 @@ function botonCalcularPrecioConDescuento(){
    resultadoPrecio.innerText = "El precio con un descuento del " + descuentoValor + "%" + " es: $" + precioTotal
 
 }
-
-
-
-//console.log({
-//    precioOriginal,
-//    descuento,
-//    porcentajePrecioConDescuento,
-//    precioConDescuento
-//});
-
